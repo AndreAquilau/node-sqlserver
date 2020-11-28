@@ -1,11 +1,14 @@
-const sql = require('mssql');
-const windowsDriver = require('mssql/msnodesqlv8');
+var sql = require('mssql');
+var windowsDriver = require('mssql/msnodesqlv8');
 
 module.exports = {
   type: 'mssql',
-  driver: windowsDriver,
+  driver: 'msnodesqlv8',
   host: 'localhost',
+  username: 'supersys',
+  password: 'super3650',
   port: 1433,
+  server: 'ANDRE-PC',
   database: 'dados',
   options: {
     trustedConnection: true,

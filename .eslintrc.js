@@ -20,5 +20,6 @@ module.exports = {
     '@typescript-eslint/no-var-requires': 'off',
     'import/no-unresolved': 'off',
     'no-console': 'off',
+    'no-var': 'off',
   },
 };
