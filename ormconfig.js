@@ -1,12 +1,9 @@
-var sql = require('mssql');
-var windowsDriver = require('mssql/msnodesqlv8');
-
 module.exports = {
   type: 'mssql',
   driver: 'msnodesqlv8',
   host: 'localhost',
-  username: 'supersys',
-  password: 'super3650',
+  username: '',
+  password: '',
   port: 1433,
   server: 'ANDRE-PC',
   database: 'dados',
